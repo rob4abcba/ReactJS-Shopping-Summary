@@ -1,11 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Grid } from "react-bootstrap";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-<h1>Hello Federal</h1>
+    <div className="container">
+      <Grid className="purchase-card">
+        <h1>Hello Federal</h1>
+      </Grid>
     </div>
   );
 }
