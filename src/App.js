@@ -1,13 +1,14 @@
 import React from "react";
-import { Grid } from "react-bootstrap";
+// import Container from 'react-bootstrap/Container'
+import { Container, Row, Col } from "react-bootstrap";
 import "./App.css";
 
 function App() {
   return (
     <div className="container">
-      <Grid className="purchase-card">
+      <Container className="purchase-card">
         <h1>Hello Federal</h1>
-      </Grid>
+      </Container>
     </div>
   );
 }
